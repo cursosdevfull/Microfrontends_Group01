@@ -5,7 +5,9 @@ window.mf_inventario = {
   async mount(props) {
     console.log("mf-inventario montado", props);
 
-    const refContainer = document.getElementById("mf-inventario");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_inventario"
+    );
 
     const h1 = document.createElement("h1");
     h1.textContent = props.titulo;
@@ -19,7 +21,9 @@ window.mf_inventario = {
   async unmount(props) {
     console.log("mf-inventario desmontado", props);
 
-    const refContainer = document.getElementById("mf-inventario");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_inventario"
+    );
     refContainer.innerHTML = "";
   },
 };

@@ -5,7 +5,9 @@ window.mf_historias = {
   async mount(props) {
     console.log("mf-historia montado", props);
 
-    const refContainer = document.getElementById("mf-historias");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_historias"
+    );
 
     const h1 = document.createElement("h1");
     h1.textContent = props.titulo;
@@ -19,7 +21,9 @@ window.mf_historias = {
   async unmount(props) {
     console.log("mf-historia desmontado", props);
 
-    const refContainer = document.getElementById("mf-historias");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_historias"
+    );
     refContainer.innerHTML = "";
   },
 };

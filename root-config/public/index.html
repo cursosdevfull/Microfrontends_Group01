@@ -7,10 +7,32 @@
     <script src="http://localhost:9001/bundle.js"></script>
     <script src="http://localhost:9002/bundle.js"></script>
     <script src="http://localhost:9003/bundle.js"></script>
+    <template id="single-spa-layout" style="display: none">
+      <single-spa-router>
+        <nav>
+          <a href="/store">Store</a>
+          <a href="/history">History</a>
+          <a href="/inventory">Inventory</a>
+        </nav>
+
+        <route path="/store">
+          <application name="mf_almacen"></application>
+        </route>
+
+        <route path="/history">
+          <application name="mf_historias"></application>
+          <application name="mf_inventario"></application>
+        </route>
+
+        <route path="/inventory">
+          <application name="mf_inventario"></application>
+        </route>
+
+        <route default>
+          <h1>Home de los Microfrontends</h1>
+        </route>
+      </single-spa-router>
+    </template>
   </head>
-  <body>
-    <div id="mf-almacen"></div>
-    <div id="mf-historias"></div>
-    <div id="mf-inventario"></div>
-  </body>
+  <body></body>
 </html>

@@ -5,7 +5,9 @@ window.mf_almacen = {
   async mount(props) {
     console.log("mf-almacen montado", props);
 
-    const refContainer = document.getElementById("mf-almacen");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_almacen"
+    );
 
     const h1 = document.createElement("h1");
     h1.textContent = props.titulo;
@@ -19,7 +21,9 @@ window.mf_almacen = {
   async unmount(props) {
     console.log("mf-almacen desmontado", props);
 
-    const refContainer = document.getElementById("mf-almacen");
+    const refContainer = document.getElementById(
+      "single-spa-application:mf_almacen"
+    );
     refContainer.innerHTML = "";
   },
 };

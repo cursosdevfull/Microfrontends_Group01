@@ -1,30 +1,20 @@
 import { registerApplication, start } from "single-spa";
+import {
+  constructApplications,
+  constructLayoutEngine,
+  constructRoutes,
+} from "single-spa-layout";
 
-registerApplication({
-  name: "mf-almacen",
-  app: window.mf_almacen,
-  activeWhen: ["/"],
-  customProps: {
-    titulo: "MFE ALMACEN",
+const routes = constructRoutes(document.getElementById("single-spa-layout"));
+
+const applications = constructApplications({
+  routes,
+  loadApp({ name }) {
+    return Promise.resolve(window[name]);
   },
 });
 
-registerApplication({
-  name: "mf-historias",
-  app: window.mf_historias,
-  activeWhen: ["/"],
-  customProps: {
-    titulo: "MFE HISTORIAS",
-  },
-});
+const layoutEngine = constructLayoutEngine({ routes, applications });
 
-registerApplication({
-  name: "mf-inventario",
-  app: window.mf_inventario,
-  activeWhen: ["/"],
-  customProps: {
-    titulo: "MFE INVENTARIO",
-  },
-});
-
+applications.forEach(registerApplication);
 start();
