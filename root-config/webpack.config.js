@@ -19,9 +19,14 @@ module.exports = {
       },
     ],
   },
-  plugins: [],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+      filename: "index.html",
+    }),
+  ],
   devServer: {
-    port: 9002,
+    port: 9000,
     historyApiFallback: true,
   },
 };

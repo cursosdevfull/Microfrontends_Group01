@@ -1,6 +1,4 @@
-import { registerApplication, start } from "single-spa";
-
-const app = {
+window.mf_almacen = {
   async bootstrap(props) {
     console.log("mf-almacen iniciado", props);
   },
@@ -25,15 +23,3 @@ const app = {
     refContainer.innerHTML = "";
   },
 };
-
-registerApplication({
-  name: "mf-almacen",
-  app,
-  activeWhen: ["/"],
-  customProps: {
-    nombre: "Botón javascript",
-    titulo: "MFE - ALMACEN",
-  },
-});
-
-start();

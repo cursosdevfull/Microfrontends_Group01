@@ -1,5 +1,4 @@
 const path = require("node:path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/main.js",
@@ -19,12 +18,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./public/index.html",
-      filename: "index.html",
-    }),
-  ],
+  plugins: [],
   devServer: {
     port: 9003,
     historyApiFallback: true,

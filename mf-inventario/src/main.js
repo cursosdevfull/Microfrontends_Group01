@@ -1,6 +1,4 @@
-import { registerApplication, start } from "single-spa";
-
-const app = {
+window.mf_inventario = {
   async bootstrap(props) {
     console.log("mf-inventario iniciado", props);
   },
@@ -25,15 +23,3 @@ const app = {
     refContainer.innerHTML = "";
   },
 };
-
-registerApplication({
-  name: "mf-inventario",
-  app,
-  activeWhen: ["/"],
-  customProps: {
-    nombre: "Botón javascript",
-    titulo: "MFE - INVENTARIO",
-  },
-});
-
-start();

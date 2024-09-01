@@ -1,13 +1,11 @@
-import { registerApplication, start } from "single-spa";
-
-const app = {
+window.mf_historias = {
   async bootstrap(props) {
     console.log("mf-historia iniciado", props);
   },
   async mount(props) {
     console.log("mf-historia montado", props);
 
-    const refContainer = document.getElementById("mf-historia");
+    const refContainer = document.getElementById("mf-historias");
 
     const h1 = document.createElement("h1");
     h1.textContent = props.titulo;
@@ -21,19 +19,7 @@ const app = {
   async unmount(props) {
     console.log("mf-historia desmontado", props);
 
-    const refContainer = document.getElementById("mf-historia");
+    const refContainer = document.getElementById("mf-historias");
     refContainer.innerHTML = "";
   },
 };
-
-registerApplication({
-  name: "mf-historia",
-  app,
-  activeWhen: ["/"],
-  customProps: {
-    nombre: "Botón javascript",
-    titulo: "MFE - HISTORIA",
-  },
-});
-
-start();
