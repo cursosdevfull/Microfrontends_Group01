@@ -1,3 +1,5 @@
+import { Component, pathImageLogo } from "styleguide";
+
 const app = {
   async bootstrap(props) {
     console.log("mf-inventario iniciado", props);
@@ -17,6 +19,19 @@ const app = {
 
     refContainer.appendChild(h1);
     refContainer.appendChild(h2);
+
+    /* const img = document.createElement("img");
+    img.src = logoCursosDev;
+    img.style = "max-width:300px;width:100%";*/
+
+    const img2 = document.createElement("img");
+    img2.src = pathImageLogo;
+    img2.style = "max-width:300px;width:100%";
+
+    //refContainer.appendChild(img);
+    refContainer.appendChild(img2);
+
+    Component("single-spa-application:mf_inventario");
   },
   async unmount(props) {
     console.log("mf-inventario desmontado", props);

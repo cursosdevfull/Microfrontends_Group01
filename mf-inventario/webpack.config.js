@@ -20,7 +20,7 @@ module.exports = {
     ],
   },
   plugins: [],
-  externals: ["single-spa"],
+  externals: ["single-spa", "styleguide"],
   devServer: {
     port: 9003,
     historyApiFallback: true,

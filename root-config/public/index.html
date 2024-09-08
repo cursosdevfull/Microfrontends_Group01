@@ -21,10 +21,11 @@
       {
         "imports": {
           "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/6.0.1/es5/system/single-spa.min.js",
+          "root-config": "//localhost:9000/bundle.js",
           "mf_almacen": "//localhost:9001/bundle.js",
           "mf_historias": "//localhost:9002/bundle.js",
           "mf_inventario": "//localhost:9003/bundle.js",
-          "root-config": "//localhost:9000/bundle.js"
+          "styleguide": "//localhost:9004/bundle.js"
         }
       }
     </script>
@@ -62,6 +63,9 @@
   <body>
     <script>
       System.import("root-config");
+      System.import("styleguide").then((result) =>
+        console.log("styleguide", result)
+      );
     </script>
   </body>
 </html>
