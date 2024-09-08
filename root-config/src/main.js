@@ -9,8 +9,13 @@ const routes = constructRoutes(document.getElementById("single-spa-layout"));
 
 const applications = constructApplications({
   routes,
-  loadApp({ name }) {
-    return Promise.resolve(window[name]);
+  async loadApp({ name }) {
+    console.log("name", name);
+    try {
+      return await System.import(name);
+    } catch (error) {
+      console.log(`Error al cargar el mfe ${name}`, error);
+    }
   },
 });
 

@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="http://localhost:9001/bundle.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.15.1/system.min.js"
+      integrity="sha512-uqwFgHHxg9qZmWJnFhtUQjSmyeWU3NByQQfx1U5DGjJ1iNfAbbgMxEDQuuxQgq2D133Cn3b5jD4cIBCPj4VKpA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/6.15.1/extras/amd.min.js"
+      integrity="sha512-BMIAzd4r+gdYmaaqYebceiPIrsnC3XQ5q2sIkUKmCZUNj+BaDHRwtMAuM9/+wxYT7dRnC+ZKuEuC4KzDje8JYQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/6.0.1/es5/system/single-spa.min.js",
+          "mf_almacen": "//localhost:9001/bundle.js",
+          "mf_historias": "//localhost:9002/bundle.js",
+          "mf_inventario": "//localhost:9003/bundle.js",
+          "root-config": "//localhost:9000/bundle.js"
+        }
+      }
+    </script>
+
+    <!--     <script src="http://localhost:9001/bundle.js"></script>
     <script src="http://localhost:9002/bundle.js"></script>
-    <script src="http://localhost:9003/bundle.js"></script>
+    <script src="http://localhost:9003/bundle.js"></script> -->
     <template id="single-spa-layout" style="display: none">
       <single-spa-router>
         <nav>
@@ -34,5 +59,9 @@
       </single-spa-router>
     </template>
   </head>
-  <body></body>
+  <body>
+    <script>
+      System.import("root-config");
+    </script>
+  </body>
 </html>

@@ -6,6 +6,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
+    libraryTarget: "system",
   },
   module: {
     rules: [
@@ -19,8 +20,12 @@ module.exports = {
     ],
   },
   plugins: [],
+  externals: ["single-spa"],
   devServer: {
     port: 9003,
     historyApiFallback: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
   },
 };

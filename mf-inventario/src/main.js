@@ -1,4 +1,4 @@
-window.mf_inventario = {
+const app = {
   async bootstrap(props) {
     console.log("mf-inventario iniciado", props);
   },
@@ -27,3 +27,5 @@ window.mf_inventario = {
     refContainer.innerHTML = "";
   },
 };
+
+export const { bootstrap, mount, unmount } = app;

@@ -1,5 +1,4 @@
 const path = require("node:path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/main.js",
@@ -7,6 +6,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
+    libraryTarget: "system",
   },
   module: {
     rules: [
@@ -20,8 +20,12 @@ module.exports = {
     ],
   },
   plugins: [],
+  externals: ["single-spa", "mf_historias"],
   devServer: {
     port: 9001,
     historyApiFallback: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
   },
 };

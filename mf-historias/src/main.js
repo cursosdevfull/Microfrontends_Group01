@@ -1,4 +1,4 @@
-window.mf_historias = {
+const app = {
   async bootstrap(props) {
     console.log("mf-historia iniciado", props);
   },
@@ -27,3 +27,35 @@ window.mf_historias = {
     refContainer.innerHTML = "";
   },
 };
+
+export const getUsageMedicineByHistoryId = (id) => {
+  return [
+    {
+      medicineId: 1,
+      name: "Medicine 1",
+      quantity: Math.ceil(Math.random() * 10 + 1),
+    },
+    {
+      medicineId: 2,
+      name: "Medicine 2",
+      quantity: Math.ceil(Math.random() * 10 + 1),
+    },
+    {
+      medicineId: 3,
+      name: "Medicine 3",
+      quantity: Math.ceil(Math.random() * 10 + 1),
+    },
+    {
+      medicineId: 4,
+      name: "Medicine 4",
+      quantity: Math.ceil(Math.random() * 10 + 1),
+    },
+    {
+      medicineId: 5,
+      name: "Medicine 5",
+      quantity: Math.ceil(Math.random() * 10 + 1),
+    },
+  ];
+};
+
+export const { bootstrap, mount, unmount } = app;
