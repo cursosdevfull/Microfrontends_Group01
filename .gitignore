@@ -1,3 +1,5 @@
-mf-*
-styleguide
-root-config
+/mf-almacen
+/mf-historias
+/mf-inventario
+/root-config
+/styleguide
