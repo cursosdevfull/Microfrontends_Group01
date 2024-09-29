@@ -1,0 +1,4 @@
+{
+  "store": "http://localhost:4201/remoteEntry.js",
+  "inventory": "http://localhost:4202/remoteEntry.js"
+}
