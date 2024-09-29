@@ -1,5 +1,2 @@
-0*
-mf*
-root*
-monorepos
-styleguide
+node_modules/
+Clase*
