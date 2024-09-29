@@ -1,3 +1,2 @@
-mf-*
-styleguide
-root-config
+node_modules
+packages
