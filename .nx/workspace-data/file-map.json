@@ -1,0 +1,20 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.0",
+  "deps": {},
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "3851862772092344110"
+      },
+      {
+        "file": "README.md",
+        "hash": "427159729496028688"
+      }
+    ]
+  }
+}

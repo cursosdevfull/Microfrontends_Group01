@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ambulance-monorepo/attentions/*": [
+        "apps/ambulance-medical-attentions/src/app/*"
+      ],
+      "@ambulance-monorepo/auth/*": ["apps/ambulance-auth/src/app/*"],
+      "@ambulance-monorepo/equipment/*": ["apps/ambulance-equipment/src/app/*"],
+      "@ambulance-monorepo/menu/*": ["apps/ambulance-menu/src/app/*"],
+      "@ambulance-monorepo/store/*": ["apps/ambulance-store/src/app/*"],
+      "@ambulance-monorepo/tables/*": [
+        "apps/ambulance-master-tables/src/app/*"
+      ],
+      "@ambulance-monorepo/ui": ["libs/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
