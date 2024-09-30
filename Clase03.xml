@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.16">
+  <diagram name="1" id="1M65abQ1ydQAuwLQyeRg">
+    <mxGraphModel dx="1380" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E3E3E3" math="0" shadow="1">
+      <root>
+        <mxCell id="iqwaoyHvPZl4RltNqedB-0" />
+        <mxCell id="iqwaoyHvPZl4RltNqedB-1" parent="iqwaoyHvPZl4RltNqedB-0" />
+        <mxCell id="iqwaoyHvPZl4RltNqedB-3" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;sketch=0;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;image=https://cursos-dev.com/assets/images/logo-horizontal.png;" parent="iqwaoyHvPZl4RltNqedB-1" vertex="1">
+          <mxGeometry width="282.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1rztNwxkIPYRNvRZGPXH-0" value="npx lerna init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="iqwaoyHvPZl4RltNqedB-1" vertex="1">
+          <mxGeometry x="240" y="210" width="237.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1rztNwxkIPYRNvRZGPXH-1" value="npx create-single-spa" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="iqwaoyHvPZl4RltNqedB-1" vertex="1">
+          <mxGeometry x="180" y="310" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

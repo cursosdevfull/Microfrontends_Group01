@@ -3,3 +3,9 @@ mf*
 root*
 monorepos
 styleguide
+host
+inventory
+microfrontends-nx
+node_modules
+packages
+store
