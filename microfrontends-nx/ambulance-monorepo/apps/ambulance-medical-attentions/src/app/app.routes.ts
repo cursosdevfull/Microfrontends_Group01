@@ -10,8 +10,8 @@ export const appRoutes: Route[] = [
       {
         path: '',
         loadComponent: () =>
-          import('./histories/histories.component').then(
-            (m) => m.HistoriesComponent
+          import('./histories/list/list.component').then(
+            (m) => m.ListComponent
           ),
       },
       {

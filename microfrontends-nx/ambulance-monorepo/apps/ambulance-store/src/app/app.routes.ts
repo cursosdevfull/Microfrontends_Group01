@@ -1,6 +1,7 @@
 import { Route } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { KardexComponent } from './kardex/kardex.component';
 import { ProductsComponent } from './products/products.component';
 import { StockComponent } from './stock/stock.component';
 
@@ -30,6 +31,10 @@ export const appRoutes: Route[] = [
       {
         path: 'products',
         component: ProductsComponent,
+      },
+      {
+        path: 'kardex',
+        component: KardexComponent,
       },
     ],
   },

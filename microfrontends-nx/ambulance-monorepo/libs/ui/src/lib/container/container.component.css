@@ -1,0 +1,6 @@
+mat-card {
+  display: flex;
+  height: 100%;
+  padding: 15px;
+  flex-direction: column;
+}

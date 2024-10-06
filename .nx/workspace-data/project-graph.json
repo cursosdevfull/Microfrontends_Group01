@@ -1,6 +1,987 @@
 {
-  "nodes": {},
+  "nodes": {
+    "ambulance-medical-attentions": {
+      "name": "ambulance-medical-attentions",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions",
+        "name": "ambulance-medical-attentions",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-medical-attentions/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-medical-attentions",
+              "index": "apps/ambulance-medical-attentions/src/index.html",
+              "browser": "apps/ambulance-medical-attentions/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-medical-attentions/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-medical-attentions/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-medical-attentions/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-medical-attentions:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-medical-attentions:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-medical-attentions:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-medical-attentions/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-master-tables": {
+      "name": "ambulance-master-tables",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables",
+        "name": "ambulance-master-tables",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-master-tables/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-master-tables",
+              "index": "apps/ambulance-master-tables/src/index.html",
+              "browser": "apps/ambulance-master-tables/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-master-tables/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-master-tables/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-master-tables/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-master-tables:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-master-tables:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-master-tables:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-master-tables/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-accounting": {
+      "name": "ambulance-accounting",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting",
+        "name": "ambulance-accounting",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-accounting/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-accounting",
+              "index": "apps/ambulance-accounting/src/index.html",
+              "browser": "apps/ambulance-accounting/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-accounting/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-accounting/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-accounting/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-accounting:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-accounting:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-accounting:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-accounting/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-equipment": {
+      "name": "ambulance-equipment",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-equipment",
+        "name": "ambulance-equipment",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-equipment/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-equipment",
+              "index": "apps/ambulance-equipment/src/index.html",
+              "browser": "apps/ambulance-equipment/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-equipment/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-equipment/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-equipment/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-equipment:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-equipment:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-equipment:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-equipment/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-billing": {
+      "name": "ambulance-billing",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing",
+        "name": "ambulance-billing",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-billing/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-billing",
+              "index": "apps/ambulance-billing/src/index.html",
+              "browser": "apps/ambulance-billing/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-billing/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-billing/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-billing/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-billing:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-billing:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-billing:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-billing/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-history": {
+      "name": "ambulance-history",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history",
+        "name": "ambulance-history",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-history/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-history",
+              "index": "apps/ambulance-history/src/index.html",
+              "browser": "apps/ambulance-history/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-history/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-history/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-history/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-history:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-history:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-history:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-history/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-store": {
+      "name": "ambulance-store",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store",
+        "name": "ambulance-store",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-store/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-store",
+              "index": "apps/ambulance-store/src/index.html",
+              "browser": "apps/ambulance-store/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-store/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-store/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-store/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-store:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-store:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-store:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-store/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-auth": {
+      "name": "ambulance-auth",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth",
+        "name": "ambulance-auth",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-auth/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-auth",
+              "index": "apps/ambulance-auth/src/index.html",
+              "browser": "apps/ambulance-auth/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-auth/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-auth/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-auth/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-auth:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-auth:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-auth:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-auth/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ambulance-menu": {
+      "name": "ambulance-menu",
+      "type": "app",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu",
+        "name": "ambulance-menu",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/ambulance-menu/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/ambulance-menu",
+              "index": "apps/ambulance-menu/src/index.html",
+              "browser": "apps/ambulance-menu/src/main.ts",
+              "polyfills": [
+                "zone.js"
+              ],
+              "tsConfig": "apps/ambulance-menu/tsconfig.app.json",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/ambulance-menu/public"
+                }
+              ],
+              "styles": [
+                "apps/ambulance-menu/src/styles.css"
+              ],
+              "scripts": []
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "2kb",
+                    "maximumError": "4kb"
+                  }
+                ],
+                "outputHashing": "all"
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "configurations": {
+              "production": {
+                "buildTarget": "ambulance-menu:build:production"
+              },
+              "development": {
+                "buildTarget": "ambulance-menu:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "options": {},
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "ambulance-menu:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/ambulance-menu/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "ui": {
+      "name": "ui",
+      "type": "lib",
+      "data": {
+        "root": "microfrontends-nx/ambulance-monorepo/libs/ui",
+        "name": "ui",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/ui/src",
+        "prefix": "lib",
+        "projectType": "library",
+        "tags": [],
+        "targets": {
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "libs/ui/jest.config.ts"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
   "externalNodes": {},
-  "dependencies": {},
+  "dependencies": {
+    "ambulance-medical-attentions": [],
+    "ambulance-master-tables": [],
+    "ambulance-accounting": [],
+    "ambulance-equipment": [],
+    "ambulance-billing": [],
+    "ambulance-history": [],
+    "ambulance-store": [],
+    "ambulance-auth": [],
+    "ambulance-menu": [],
+    "ui": []
+  },
   "version": "6.0"
 }

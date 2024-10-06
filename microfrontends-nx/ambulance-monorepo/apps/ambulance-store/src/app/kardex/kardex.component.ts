@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-histories',
+  selector: 'app-kardex',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './histories.component.html',
-  styleUrl: './histories.component.css',
+  templateUrl: './kardex.component.html',
+  styleUrl: './kardex.component.css',
 })
-export class HistoriesComponent {}
+export class KardexComponent {}

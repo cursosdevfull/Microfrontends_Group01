@@ -42,4 +42,11 @@ export const appRoutes: Route[] = [
         (m) => m.appRoutes
       ),
   },
+  {
+    path: 'accounting',
+    loadComponent: () =>
+      import('@ambulance-monorepo/accounting/app.component').then(
+        (m) => m.AppComponent
+      ),
+  },
 ];

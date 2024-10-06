@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ambulance-monorepo/accounting/*": [
+        "apps/ambulance-accounting/src/app/*"
+      ],
       "@ambulance-monorepo/attentions/*": [
         "apps/ambulance-medical-attentions/src/app/*"
       ],

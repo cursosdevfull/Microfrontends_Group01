@@ -1,1 +1,24 @@
-<p>login works!</p>
+<div class="container">
+  <div class="container__login">
+    <form class="login__form" [formGroup]="fg">
+      <h1 class="form__title">Credenciales</h1>
+      <mat-form-field appearance="outline">
+        <mat-label>Correo</mat-label>
+        <input type="email" matInput formControlName="email" required />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Contraseña</mat-label>
+        <input type="password" matInput formControlName="password" required />
+      </mat-form-field>
+      <button
+        mat-flat-button
+        type="button"
+        [disabled]="fg.invalid"
+        (click)="login()"
+      >
+        Ingresar
+      </button>
+      <span>¿No tiene cuenta? <a routerLink="/register">clic aquí</a></span>
+    </form>
+  </div>
+</div>

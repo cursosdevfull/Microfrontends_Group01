@@ -1,14 +1,42 @@
 import { Component } from '@angular/core';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+
+import {
+  HeaderComponent,
+  HeaderProps,
+} from '../../../../libs/ui/src/lib/header/header.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, MatSidenavModule, HeaderComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'ambulance-medical-attentions';
+  headerProps!: HeaderProps;
+
+  constructor() {
+    this.generateHeaderProps();
+  }
+
+  private generateHeaderProps() {
+    this.headerProps = {
+      title: 'Atenciones médicas',
+      user: {
+        name: 'John Doe',
+      },
+      routes: [
+        {
+          path: '/medical-attentions',
+          title: 'Listado',
+        },
+        {
+          path: 'reports',
+          title: 'Reportes',
+        },
+      ],
+    };
+  }
 }

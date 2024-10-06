@@ -1,0 +1,37 @@
+<mat-toolbar>
+  @let props=headerProps();
+  <div class="options">
+    <h1 class="options__title">{{ props.title }}</h1>
+    <div class="options__items">
+      @for(item of props.routes; track $index) {
+      <a
+        routerLink="{{ item.path }}"
+        class="items__link"
+        routerLinkActive="items__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [relativeTo]="route.parent"
+      >
+        {{ item.title }}
+      </a>
+      }
+    </div>
+  </div>
+  <div class="user">
+    <button mat-button class="user__button" [matMenuTriggerFor]="menu">
+      <div class="button__content">
+        <span>{{ props.user.name }}</span>
+        <mat-icon matSuffix>keyboard_arrow_down</mat-icon>
+      </div>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="goNavigation('/menu')">
+        <mat-icon>keyboard_return</mat-icon>
+        <span>Volver al menú</span>
+      </button>
+      <button mat-menu-item (click)="goNavigation('/login')">
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Cerrar sesión</span>
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

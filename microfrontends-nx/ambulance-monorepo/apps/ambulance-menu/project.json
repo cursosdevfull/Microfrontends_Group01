@@ -8,12 +8,16 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/ambulance-menu",
         "index": "apps/ambulance-menu/src/index.html",
         "browser": "apps/ambulance-menu/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/ambulance-menu/tsconfig.app.json",
         "assets": [
           {
@@ -21,7 +25,10 @@
             "input": "apps/ambulance-menu/public"
           }
         ],
-        "styles": ["apps/ambulance-menu/src/styles.css"],
+        "styles": [
+          "apps/ambulance-menu/src/custom-theme.scss",
+          "apps/ambulance-menu/src/styles.css"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -71,7 +78,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/ambulance-menu/jest.config.ts"
       }

@@ -1,1 +1,8 @@
-<router-outlet></router-outlet>
+<mat-sidenav-container>
+  <mat-sidenav-content>
+    <div class="container">
+      <lib-header [headerProps]="headerProps"></lib-header>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

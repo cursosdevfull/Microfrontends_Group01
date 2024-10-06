@@ -1,1 +1,65 @@
-<app-nx-welcome></app-nx-welcome> <router-outlet></router-outlet>
+<div class="container">
+  <div class="container__options">
+    <mat-grid-list cols="3" rowHeight="45%">
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title"
+              >Atenciones médicas</mat-card-title
+            >
+            <button mat-flat-button routerLink="/medical-attentions">
+              INGRESAR
+            </button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title">Facturación</mat-card-title>
+            <button mat-flat-button routerLink="/billing">INGRESAR</button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title">Almacen</mat-card-title>
+            <button mat-flat-button routerLink="/store">INGRESAR</button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title"
+              >Tablas maestras</mat-card-title
+            >
+            <button mat-flat-button routerLink="/master-tables">
+              INGRESAR
+            </button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title">Equipamiento</mat-card-title>
+            <button mat-flat-button routerLink="/equipment">INGRESAR</button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-card class="options__card" appearance="outlined">
+          <mat-card-header class="card__header">
+            <mat-card-title class="header__title">Contabilidad</mat-card-title>
+            <button mat-flat-button routerLink="/accounting">INGRESAR</button>
+          </mat-card-header>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>

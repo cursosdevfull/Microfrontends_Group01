@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="container__login">
+    <form class="login__form" [formGroup]="fg">
+      <h1 class="form__title">Registro</h1>
+      <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input type="text" matInput formControlName="name" required />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Correo</mat-label>
+        <input type="email" matInput formControlName="email" required />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Contraseña</mat-label>
+        <input type="password" matInput formControlName="password" required />
+      </mat-form-field>
+      <button mat-flat-button type="button" [disabled]="fg.invalid">
+        Registrar
+      </button>
+      <span>¿Tienes cuenta? <a routerLink="/login">clic aquí</a></span>
+    </form>
+  </div>
+</div>
