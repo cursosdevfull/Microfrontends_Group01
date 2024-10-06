@@ -19,6 +19,7 @@
         "apps/ambulance-medical-attentions/src/app/*"
       ],
       "@ambulance-monorepo/auth/*": ["apps/ambulance-auth/src/app/*"],
+      "@ambulance-monorepo/billing/*": ["apps/ambulance-billing/src/app/*"],
       "@ambulance-monorepo/equipment/*": ["apps/ambulance-equipment/src/app/*"],
       "@ambulance-monorepo/menu/*": ["apps/ambulance-menu/src/app/*"],
       "@ambulance-monorepo/store/*": ["apps/ambulance-store/src/app/*"],
