@@ -9,3 +9,4 @@ microfrontends-nx
 node_modules
 packages
 store
+.nx
