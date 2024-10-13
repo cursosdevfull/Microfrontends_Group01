@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo "Start compilation"
-      - npx nx run-many --target=build --all
+      - npx nx run-many --target=build --all --skip-nx-cache
   post_build:
     commands:
       - aws s3 rm s3://curso-mfe --recursive
