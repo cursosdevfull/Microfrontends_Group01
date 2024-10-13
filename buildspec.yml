@@ -17,7 +17,7 @@ phases:
   post_build:
     commands:
       - aws s3 rm s3://curso-mfe --recursive
-      - aws s3 sync dist/ambulance-history/browser s3://curso-mfe --delete
+      - aws s3 sync dist/apps/ambulance-history/browser s3://curso-mfe --delete
       - aws cloudfront create-invalidation --distribution-id E1MMA8IE61DEOI --paths '/*'
 artifacts:
   name: "CursoMFE"
