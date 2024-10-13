@@ -8,6 +8,7 @@ phases:
       - echo "Installing dependencies"
       - cd microfrontends-nx/ambulance-monorepo
       - npm ci
+      - yum install -y hostname
   build:
     commands:
       - echo "Start compilation"
