@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ambulance-history": "nx serve ambulance-history",
-    "build:all": "nx run-many --target=build --all"
+    "build:all": "npx nx run-many --target=build --all"
   },
   "private": true,
   "dependencies": {
