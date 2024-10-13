@@ -8,6 +8,7 @@ phases:
       - echo "Installing dependencies"
       - cd microfrontends-nx/ambulance-monorepo
       - npm ci
+      - npm i -g nx@19.5.6
       - yum install -y hostname
   build:
     commands:
