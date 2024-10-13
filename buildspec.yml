@@ -2,26 +2,18 @@ version: "0.2"
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 20
   pre_build:
     commands:
       - echo "Installing dependencies"
       - cd microfrontends-nx/ambulance-monorepo
       - npm ci
-      - npm i -g nx@19.5.6
+      - npm i -g nx
       - yum install -y hostname
   build:
     commands:
       - echo "Start compilation"
-      - npx nx build ambulance-auth
-      - npx nx build ambulance-accounting
-      - npx nx build ambulance-menu
-      - npx nx build ambulance-store
-      - npx nx build ambulance-master-tables
-      - npx nx build ambulance-equipment
-      - npx nx build ambulance-billing
-      - npx nx build ambulance-history
-      - npx nx build ambulance-medical-attentions
+      - npx nx run-many --target=build --all
   post_build:
     commands:
       - aws s3 rm s3://curso-mfe --recursive
