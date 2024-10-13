@@ -9,3 +9,5 @@ packages
 store
 Clase*
 node_modules
+.angular
+.nx

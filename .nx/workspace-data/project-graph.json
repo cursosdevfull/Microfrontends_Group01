@@ -240,6 +240,7 @@
                 }
               ],
               "styles": [
+                "apps/ambulance-accounting/src/custom-theme.scss",
                 "apps/ambulance-accounting/src/styles.css"
               ],
               "scripts": []
@@ -448,6 +449,7 @@
                 }
               ],
               "styles": [
+                "apps/ambulance-billing/src/custom-theme.scss",
                 "apps/ambulance-billing/src/styles.css"
               ],
               "scripts": []
@@ -552,6 +554,7 @@
                 }
               ],
               "styles": [
+                "apps/ambulance-history/src/custom-theme.scss",
                 "apps/ambulance-history/src/styles.css"
               ],
               "scripts": []
@@ -760,6 +763,7 @@
                 }
               ],
               "styles": [
+                "apps/ambulance-auth/src/custom-theme.scss",
                 "apps/ambulance-auth/src/styles.css"
               ],
               "scripts": []
@@ -864,6 +868,7 @@
                 }
               ],
               "styles": [
+                "apps/ambulance-menu/src/custom-theme.scss",
                 "apps/ambulance-menu/src/styles.css"
               ],
               "scripts": []

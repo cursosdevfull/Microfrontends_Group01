@@ -6,18 +6,214 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
+      "ambulance-auth": [
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/.eslintrc.json",
+          "hash": "9841770291056711405"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/jest.config.ts",
+          "hash": "15739357966442384264"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/project.json",
+          "hash": "10109103536976899363"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.html",
+          "hash": "17385897758380840601"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.spec.ts",
+          "hash": "11892746855086794795"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.ts",
+          "hash": "90080174299195552"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.config.ts",
+          "hash": "10029473274307360644"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.routes.ts",
+          "hash": "14968174890897124344"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.css",
+          "hash": "15906224925226291379"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.html",
+          "hash": "653010831443501724"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.spec.ts",
+          "hash": "14286510909486102227"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.ts",
+          "hash": "2400760095188598577"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/nx-welcome.component.ts",
+          "hash": "7712139887141315448"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/register/register.component.css",
+          "hash": "15906224925226291379"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/register/register.component.html",
+          "hash": "17442861091832857157"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/register/register.component.spec.ts",
+          "hash": "11981789401339939367"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/register/register.component.ts",
+          "hash": "6041438107030996389"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/custom-theme.scss",
+          "hash": "13330381181862462840"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/index.html",
+          "hash": "4646381083442634371"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/main.ts",
+          "hash": "875041330523952236"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/styles.css",
+          "hash": "14032706286487182274"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/test-setup.ts",
+          "hash": "10765977267162271731"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.editor.json",
+          "hash": "17575078801745175164"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.json",
+          "hash": "6018160719349627976"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.spec.json",
+          "hash": "1930986853382524452"
+        }
+      ],
+      "ambulance-history": [
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/.eslintrc.json",
+          "hash": "9841770291056711405"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/jest.config.ts",
+          "hash": "1342968234267693619"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/project.json",
+          "hash": "7797650366914602036"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.html",
+          "hash": "17385897758380840601"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.spec.ts",
+          "hash": "10622238914181902426"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.ts",
+          "hash": "3997215490646741132"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.config.ts",
+          "hash": "17072582141540784283"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.routes.ts",
+          "hash": "7167134354202046040"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/nx-welcome.component.ts",
+          "hash": "11548105397698321466"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/custom-theme.scss",
+          "hash": "10217567940115383673"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/index.html",
+          "hash": "5137469376535207246"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/main.ts",
+          "hash": "875041330523952236"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/styles.css",
+          "hash": "14032706286487182274"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/test-setup.ts",
+          "hash": "10765977267162271731"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.editor.json",
+          "hash": "17575078801745175164"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.json",
+          "hash": "6018160719349627976"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.spec.json",
+          "hash": "1930986853382524452"
+        }
+      ],
       "ambulance-accounting": [
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/.eslintrc.json",
-          "hash": "3322449398258820698"
+          "hash": "9841770291056711405"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/jest.config.ts",
-          "hash": "17598263041201884715"
+          "hash": "1698468665000739832"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/project.json",
-          "hash": "5859219022895405160"
+          "hash": "3283936321292915196"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/public/favicon.ico",
@@ -29,59 +225,275 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/app.component.html",
-          "hash": "5654460193981998828"
+          "hash": "17572035018541524321"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/app.component.spec.ts",
-          "hash": "12042087882578336129"
+          "hash": "9220665930877755246"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/app.component.ts",
-          "hash": "6433274913007988577"
+          "hash": "12832440357750238997"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/app.config.ts",
-          "hash": "6137170128205633588"
+          "hash": "17072582141540784283"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/app.routes.ts",
-          "hash": "6185150965714414910"
+          "hash": "12790378059371385261"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/app/nx-welcome.component.ts",
-          "hash": "12666502637422061382"
+          "hash": "7519918454841337518"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/custom-theme.scss",
+          "hash": "14217983763716185885"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/index.html",
-          "hash": "5583512161229386708"
+          "hash": "14206978270195459800"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/main.ts",
-          "hash": "16635586463787978962"
+          "hash": "875041330523952236"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "14032706286487182274"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/src/test-setup.ts",
-          "hash": "12935735732682149507"
+          "hash": "10765977267162271731"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/tsconfig.app.json",
-          "hash": "8365644956319658761"
+          "hash": "15840844869456775012"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/tsconfig.editor.json",
-          "hash": "1055794200401717100"
+          "hash": "17575078801745175164"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/tsconfig.json",
-          "hash": "6424220500541951295"
+          "hash": "6018160719349627976"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-accounting/tsconfig.spec.json",
-          "hash": "2927375835638640771"
+          "hash": "1930986853382524452"
+        }
+      ],
+      "ambulance-menu": [
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/.eslintrc.json",
+          "hash": "9841770291056711405"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/jest.config.ts",
+          "hash": "7979284114109654992"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/project.json",
+          "hash": "10972140099683086286"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.css",
+          "hash": "10299854050621545678"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.html",
+          "hash": "4855550617286117695"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.spec.ts",
+          "hash": "6023872786545143028"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.ts",
+          "hash": "8863010938696379107"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.config.ts",
+          "hash": "17072582141540784283"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.routes.ts",
+          "hash": "12790378059371385261"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/nx-welcome.component.ts",
+          "hash": "12270924992647859160"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/custom-theme.scss",
+          "hash": "15547890875339405736"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/index.html",
+          "hash": "14642190447312511363"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/main.ts",
+          "hash": "875041330523952236"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/styles.css",
+          "hash": "14032706286487182274"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/test-setup.ts",
+          "hash": "10765977267162271731"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.editor.json",
+          "hash": "17575078801745175164"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.json",
+          "hash": "6018160719349627976"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.spec.json",
+          "hash": "1930986853382524452"
+        }
+      ],
+      "ambulance-billing": [
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/.eslintrc.json",
+          "hash": "9841770291056711405"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/jest.config.ts",
+          "hash": "3331501192373540551"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/project.json",
+          "hash": "1678533614805238257"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.html",
+          "hash": "17385897758380840601"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.spec.ts",
+          "hash": "1791904048201430305"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.ts",
+          "hash": "3373434409040298922"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.config.ts",
+          "hash": "17072582141540784283"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.routes.ts",
+          "hash": "13323063387941739917"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.html",
+          "hash": "18015585088214518524"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.spec.ts",
+          "hash": "17253434112922300745"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.ts",
+          "hash": "11478257654117226211"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/nx-welcome.component.ts",
+          "hash": "5848643700548814968"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.html",
+          "hash": "11366669402166988648"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.spec.ts",
+          "hash": "4273192660367453754"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.ts",
+          "hash": "13025962071631517671"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.html",
+          "hash": "16361697340945442160"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.spec.ts",
+          "hash": "2194315131257719670"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.ts",
+          "hash": "16537143500993996370"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/custom-theme.scss",
+          "hash": "885466266834904946"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/index.html",
+          "hash": "233249291210020156"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/main.ts",
+          "hash": "875041330523952236"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/styles.css",
+          "hash": "14032706286487182274"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/test-setup.ts",
+          "hash": "10765977267162271731"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.editor.json",
+          "hash": "17575078801745175164"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.json",
+          "hash": "6018160719349627976"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.spec.json",
+          "hash": "1930986853382524452"
         }
       ],
       "ambulance-master-tables": [
@@ -131,15 +543,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/companies/companies.component.html",
-          "hash": "6768765338464745885"
+          "hash": "31997456865739526"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/companies/companies.component.spec.ts",
-          "hash": "17340230732702898834"
+          "hash": "2721973311870145284"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/companies/companies.component.ts",
-          "hash": "6767106843372809466"
+          "hash": "13924741873247451219"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/drivers/drivers.component.css",
@@ -147,15 +559,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/drivers/drivers.component.html",
-          "hash": "7950890396752449430"
+          "hash": "383537781347769150"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/drivers/drivers.component.spec.ts",
-          "hash": "10504804870937328857"
+          "hash": "13584906367725137156"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/drivers/drivers.component.ts",
-          "hash": "2513895501874629346"
+          "hash": "11688528571433139327"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/medics/medics.component.css",
@@ -163,15 +575,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/medics/medics.component.html",
-          "hash": "15187471055608199636"
+          "hash": "7731664613378639339"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/medics/medics.component.spec.ts",
-          "hash": "118434829153053639"
+          "hash": "6584651543991977380"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/medics/medics.component.ts",
-          "hash": "6432687259828473794"
+          "hash": "4966335609424244214"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/nx-welcome.component.ts",
@@ -183,15 +595,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/paramedics/paramedics.component.html",
-          "hash": "14994369820566177431"
+          "hash": "12521010100236083453"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/paramedics/paramedics.component.spec.ts",
-          "hash": "4604006700622822055"
+          "hash": "16743893490271532686"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/paramedics/paramedics.component.ts",
-          "hash": "16850738748292499749"
+          "hash": "2884743665933289647"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/umes/umes.component.css",
@@ -199,15 +611,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/umes/umes.component.html",
-          "hash": "11397451621256817054"
+          "hash": "5739995213706115716"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/umes/umes.component.spec.ts",
-          "hash": "4557696211253524034"
+          "hash": "1210574371881660836"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/umes/umes.component.ts",
-          "hash": "9640143169315834975"
+          "hash": "16156825921350470630"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/users/Users.component.css",
@@ -215,15 +627,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/users/Users.component.html",
-          "hash": "3859611733907286946"
+          "hash": "5958812394108616554"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/users/Users.component.spec.ts",
-          "hash": "2922554487736487867"
+          "hash": "17359920092612907470"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/app/users/Users.component.ts",
-          "hash": "1348424455465875308"
+          "hash": "13043276322441751556"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/src/index.html",
@@ -255,6 +667,108 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-master-tables/tsconfig.spec.json",
+          "hash": "1930986853382524452"
+        }
+      ],
+      "ui": [
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/.eslintrc.json",
+          "hash": "18314034261363792657"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/README.md",
+          "hash": "17507811124529675953"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/jest.config.ts",
+          "hash": "16699829734566568597"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/project.json",
+          "hash": "1821657452850294966"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/index.ts",
+          "hash": "14839727273192607203"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/container/container.component.css",
+          "hash": "1675455634425133430"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/container/container.component.html",
+          "hash": "17836836699703289375"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/container/container.component.spec.ts",
+          "hash": "3513958780794957525"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/container/container.component.ts",
+          "hash": "16357367286747622180"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/header/header.component.css",
+          "hash": "15859568076096121801"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/header/header.component.html",
+          "hash": "15219070495636904214"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/header/header.component.spec.ts",
+          "hash": "246408304213996698"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/header/header.component.ts",
+          "hash": "8008920652783942187"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/table/table.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/table/table.component.html",
+          "hash": "11673545234564744997"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/table/table.component.spec.ts",
+          "hash": "14649695113155094350"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/table/table.component.ts",
+          "hash": "10372660018042198975"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.html",
+          "hash": "1102744013766710981"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.spec.ts",
+          "hash": "3787435953733234956"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.ts",
+          "hash": "6126154560993799139"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/test-setup.ts",
+          "hash": "10765977267162271731"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.json",
+          "hash": "13435514026187882015"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.lib.json",
+          "hash": "15304444604046903881"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.spec.json",
           "hash": "1930986853382524452"
         }
       ],
@@ -305,15 +819,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventories/inventories.component.html",
-          "hash": "7128028247918170886"
+          "hash": "13018395009016514516"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventories/inventories.component.spec.ts",
-          "hash": "10111310536179849244"
+          "hash": "10880758866142555176"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventories/inventories.component.ts",
-          "hash": "6403420543251661209"
+          "hash": "5325412660702275735"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventory-ambulances/inventory-ambulances.component.css",
@@ -321,15 +835,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventory-ambulances/inventory-ambulances.component.html",
-          "hash": "16087103010565258596"
+          "hash": "4888500067433457946"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventory-ambulances/inventory-ambulances.component.spec.ts",
-          "hash": "2121860628200390445"
+          "hash": "7256334090642831208"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/inventory-ambulances/inventory-ambulances.component.ts",
-          "hash": "4245552543814003178"
+          "hash": "13800124668731784823"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/kardex/kardex.component.css",
@@ -337,15 +851,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/kardex/kardex.component.html",
-          "hash": "5573685607389991842"
+          "hash": "3598743404228172887"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/kardex/kardex.component.spec.ts",
-          "hash": "4359964454450706142"
+          "hash": "13938503489787538583"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/kardex/kardex.component.ts",
-          "hash": "14906119273811857034"
+          "hash": "11209208154321685431"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/nx-welcome.component.ts",
@@ -357,15 +871,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/products/products.component.html",
-          "hash": "454246601278307782"
+          "hash": "4027523131693770910"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/products/products.component.spec.ts",
-          "hash": "5022660490782315645"
+          "hash": "8863134234339286541"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/products/products.component.ts",
-          "hash": "12955867051411353"
+          "hash": "18423385558838584591"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/stock/stock.component.css",
@@ -373,15 +887,15 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/stock/stock.component.html",
-          "hash": "18398005516759739361"
+          "hash": "17060833648355461355"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/stock/stock.component.spec.ts",
-          "hash": "1390568164743749519"
+          "hash": "9533615390359350726"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/app/stock/stock.component.ts",
-          "hash": "8641939879385456306"
+          "hash": "14023019842912290361"
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/src/index.html",
@@ -413,398 +927,6 @@
         },
         {
           "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-store/tsconfig.spec.json",
-          "hash": "1930986853382524452"
-        }
-      ],
-      "ambulance-billing": [
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/.eslintrc.json",
-          "hash": "3322449398258820698"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/jest.config.ts",
-          "hash": "3067158096027326678"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/project.json",
-          "hash": "2649518740817129469"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.html",
-          "hash": "17816966185630879015"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.spec.ts",
-          "hash": "508526866849803784"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.component.ts",
-          "hash": "12755584464657286013"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.config.ts",
-          "hash": "6137170128205633588"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/app.routes.ts",
-          "hash": "7148154722477135238"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.html",
-          "hash": "10460650309255798921"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.spec.ts",
-          "hash": "18199749649567014766"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/electronic-billing/electronic-billing.component.ts",
-          "hash": "830171964251537991"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/nx-welcome.component.ts",
-          "hash": "10650330712388214114"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.html",
-          "hash": "14546517790626694464"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.spec.ts",
-          "hash": "13082855003432510341"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/rates/rates.component.ts",
-          "hash": "6256197361325590130"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.html",
-          "hash": "3650882061908950722"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.spec.ts",
-          "hash": "11343978398349009103"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/app/reports/reports.component.ts",
-          "hash": "14221054601739636607"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/index.html",
-          "hash": "13868097749230341221"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/main.ts",
-          "hash": "16635586463787978962"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/styles.css",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/src/test-setup.ts",
-          "hash": "12935735732682149507"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.json",
-          "hash": "6424220500541951295"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-billing/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
-      "ambulance-history": [
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/.eslintrc.json",
-          "hash": "9841770291056711405"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/jest.config.ts",
-          "hash": "1342968234267693619"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/project.json",
-          "hash": "17582839701406965082"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.html",
-          "hash": "17385897758380840601"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.spec.ts",
-          "hash": "10622238914181902426"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.component.ts",
-          "hash": "3997215490646741132"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.config.ts",
-          "hash": "2061310302555965946"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/app.routes.ts",
-          "hash": "7167134354202046040"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/app/nx-welcome.component.ts",
-          "hash": "11548105397698321466"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/index.html",
-          "hash": "13706177669889122019"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/main.ts",
-          "hash": "875041330523952236"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/styles.css",
-          "hash": "2917954890128038984"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/src/test-setup.ts",
-          "hash": "10765977267162271731"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.app.json",
-          "hash": "15840844869456775012"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.editor.json",
-          "hash": "17575078801745175164"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.json",
-          "hash": "6018160719349627976"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-history/tsconfig.spec.json",
-          "hash": "1930986853382524452"
-        }
-      ],
-      "ambulance-menu": [
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/.eslintrc.json",
-          "hash": "9841770291056711405"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/jest.config.ts",
-          "hash": "7979284114109654992"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/project.json",
-          "hash": "978609394141030666"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.html",
-          "hash": "17572035018541524321"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.spec.ts",
-          "hash": "6023872786545143028"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.component.ts",
-          "hash": "12709546958490366503"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.config.ts",
-          "hash": "2061310302555965946"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/app.routes.ts",
-          "hash": "12790378059371385261"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/app/nx-welcome.component.ts",
-          "hash": "12270924992647859160"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/index.html",
-          "hash": "13000608970957037803"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/main.ts",
-          "hash": "875041330523952236"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/styles.css",
-          "hash": "2917954890128038984"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/src/test-setup.ts",
-          "hash": "10765977267162271731"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.app.json",
-          "hash": "15840844869456775012"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.editor.json",
-          "hash": "17575078801745175164"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.json",
-          "hash": "6018160719349627976"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-menu/tsconfig.spec.json",
-          "hash": "1930986853382524452"
-        }
-      ],
-      "ambulance-medical-attentions": [
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/.eslintrc.json",
-          "hash": "9841770291056711405"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/jest.config.ts",
-          "hash": "2133687652913524270"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/project.json",
-          "hash": "12184112549949643135"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.html",
-          "hash": "17385897758380840601"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.spec.ts",
-          "hash": "4701845858269733976"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.ts",
-          "hash": "10075428897345105721"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.config.ts",
-          "hash": "2061310302555965946"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.routes.ts",
-          "hash": "14073467915185119041"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/histories.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/histories.component.html",
-          "hash": "12959082577053684989"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/histories.component.spec.ts",
-          "hash": "4700986381341625762"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/histories.component.ts",
-          "hash": "4823649481362998958"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/nx-welcome.component.ts",
-          "hash": "11383250993123383210"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.html",
-          "hash": "3650882061908950722"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.spec.ts",
-          "hash": "11343978398349009103"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.ts",
-          "hash": "14221054601739636607"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/index.html",
-          "hash": "12590549600451615546"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/main.ts",
-          "hash": "875041330523952236"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/styles.css",
-          "hash": "2917954890128038984"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/test-setup.ts",
-          "hash": "10765977267162271731"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.app.json",
-          "hash": "15840844869456775012"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.editor.json",
-          "hash": "17575078801745175164"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.json",
-          "hash": "6018160719349627976"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.spec.json",
           "hash": "1930986853382524452"
         }
       ],
@@ -886,156 +1008,138 @@
           "hash": "1930986853382524452"
         }
       ],
-      "ambulance-auth": [
+      "ambulance-medical-attentions": [
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/.eslintrc.json",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/.eslintrc.json",
           "hash": "9841770291056711405"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/jest.config.ts",
-          "hash": "15739357966442384264"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/jest.config.ts",
+          "hash": "2133687652913524270"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/project.json",
-          "hash": "2012043329703024606"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/project.json",
+          "hash": "12184112549949643135"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/public/favicon.ico",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/public/favicon.ico",
           "hash": "9303420814833116677"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.css",
-          "hash": "3244421341483603138"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.css",
+          "hash": "3394329175489577731"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.html",
-          "hash": "17572035018541524321"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.html",
+          "hash": "8987375671232923298"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.spec.ts",
-          "hash": "11892746855086794795"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.spec.ts",
+          "hash": "4701845858269733976"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.component.ts",
-          "hash": "90080174299195552"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.component.ts",
+          "hash": "16660568815446612121"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.config.ts",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.config.ts",
           "hash": "2061310302555965946"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/app.routes.ts",
-          "hash": "17287457889898162698"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/app.routes.ts",
+          "hash": "4136575064276794584"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.css",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/form/form.component.css",
           "hash": "3244421341483603138"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.html",
-          "hash": "17867980221530361052"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/form/form.component.html",
+          "hash": "10976325519935418683"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.spec.ts",
-          "hash": "14286510909486102227"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/form/form.component.spec.ts",
+          "hash": "14301572854993294566"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/login/login.component.ts",
-          "hash": "16488506066946610986"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/form/form.component.ts",
+          "hash": "12519003655299458859"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/app/nx-welcome.component.ts",
-          "hash": "7712139887141315448"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/list/list.component.css",
+          "hash": "17699495124173928744"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/index.html",
-          "hash": "695147225175675360"
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/list/list.component.html",
+          "hash": "5655608198052698004"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/main.ts",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/list/list.component.spec.ts",
+          "hash": "18148102571302527683"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/histories/list/list.component.ts",
+          "hash": "877207341728059779"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/nx-welcome.component.ts",
+          "hash": "11383250993123383210"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.html",
+          "hash": "16361697340945442160"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.spec.ts",
+          "hash": "2194315131257719670"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/app/reports/reports.component.ts",
+          "hash": "16537143500993996370"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/index.html",
+          "hash": "12590549600451615546"
+        },
+        {
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/main.ts",
           "hash": "875041330523952236"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/styles.css",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/styles.css",
           "hash": "2917954890128038984"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/src/test-setup.ts",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/src/test-setup.ts",
           "hash": "10765977267162271731"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.app.json",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.app.json",
           "hash": "15840844869456775012"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.editor.json",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.editor.json",
           "hash": "17575078801745175164"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.json",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.json",
           "hash": "6018160719349627976"
         },
         {
-          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-auth/tsconfig.spec.json",
-          "hash": "1930986853382524452"
-        }
-      ],
-      "ui": [
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/.eslintrc.json",
-          "hash": "18314034261363792657"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/README.md",
-          "hash": "17507811124529675953"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/jest.config.ts",
-          "hash": "16699829734566568597"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/project.json",
-          "hash": "1821657452850294966"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/index.ts",
-          "hash": "14839727273192607203"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.html",
-          "hash": "1102744013766710981"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.spec.ts",
-          "hash": "3787435953733234956"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/lib/ui/ui.component.ts",
-          "hash": "6126154560993799139"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/src/test-setup.ts",
-          "hash": "10765977267162271731"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.json",
-          "hash": "13435514026187882015"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.lib.json",
-          "hash": "15304444604046903881"
-        },
-        {
-          "file": "microfrontends-nx/ambulance-monorepo/libs/ui/tsconfig.spec.json",
+          "file": "microfrontends-nx/ambulance-monorepo/apps/ambulance-medical-attentions/tsconfig.spec.json",
           "hash": "1930986853382524452"
         }
       ]
     },
     "nonProjectFiles": [
+      {
+        "file": ".angular/cache/18.2.5/ambulance-history/.tsbuildinfo",
+        "hash": "13611260081808250264"
+      },
       {
         "file": ".gitignore",
         "hash": "3851862772092344110"
@@ -1074,7 +1178,7 @@
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/.vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "hash": "60901680939730831"
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/README.md",
@@ -1090,19 +1194,19 @@
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/nx.json",
-        "hash": "15700819044306531504"
+        "hash": "93627778629624563"
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/package-lock.json",
-        "hash": "13323155839214688859"
+        "hash": "12240382188662000915"
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/package.json",
-        "hash": "12030313011817377100"
+        "hash": "10163264679864356110"
       },
       {
         "file": "microfrontends-nx/ambulance-monorepo/tsconfig.base.json",
-        "hash": "5268191775709330288"
+        "hash": "12628546457622886068"
       }
     ]
   }

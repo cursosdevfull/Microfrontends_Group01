@@ -2,7 +2,10 @@
   "name": "@ambulance-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "ambulance-history": "nx serve ambulance-history",
+    "build:all": "nx run-many --target=build --all"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",
