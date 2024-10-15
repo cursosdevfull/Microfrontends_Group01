@@ -23,4 +23,4 @@ artifacts:
   name: "CursoMFE"
   files:
     - "**/*"
-  base-directory: dist/ambulance-history/browser
+  base-directory: dist/apps/ambulance-history/browser

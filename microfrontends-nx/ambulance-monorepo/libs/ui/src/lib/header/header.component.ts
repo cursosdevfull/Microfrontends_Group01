@@ -1,3 +1,4 @@
+import { AuthService } from '@ambulance-monorepo/services';
 import { CommonModule } from '@angular/common';
 import { Component, inject, input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
@@ -47,8 +48,19 @@ export class HeaderComponent {
   headerProps = input.required<HeaderProps>();
   router = inject(Router);
   route = inject(ActivatedRoute);
+  authService = inject(AuthService);
+
+  username: string;
+
+  constructor() {
+    this.username = this.authService.getName() || '';
+  }
 
   goNavigation(path: string) {
     this.router.navigate([path]);
+  }
+
+  logout() {
+    this.authService.logout();
   }
 }

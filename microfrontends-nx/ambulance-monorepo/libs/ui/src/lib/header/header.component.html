@@ -19,7 +19,7 @@
   <div class="user">
     <button mat-button class="user__button" [matMenuTriggerFor]="menu">
       <div class="button__content">
-        <span>{{ props.user.name }}</span>
+        <span>{{ username }}</span>
         <mat-icon matSuffix>keyboard_arrow_down</mat-icon>
       </div>
     </button>
@@ -28,7 +28,7 @@
         <mat-icon>keyboard_return</mat-icon>
         <span>Volver al menú</span>
       </button>
-      <button mat-menu-item (click)="goNavigation('/login')">
+      <button mat-menu-item (click)="logout()">
         <mat-icon>exit_to_app</mat-icon>
         <span>Cerrar sesión</span>
       </button>

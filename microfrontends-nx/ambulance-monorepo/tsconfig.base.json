@@ -25,6 +25,7 @@
       "@ambulance-monorepo/billing/*": ["apps/ambulance-billing/src/app/*"],
       "@ambulance-monorepo/equipment/*": ["apps/ambulance-equipment/src/app/*"],
       "@ambulance-monorepo/menu/*": ["apps/ambulance-menu/src/app/*"],
+      "@ambulance-monorepo/services": ["libs/services/src/index.ts"],
       "@ambulance-monorepo/store/*": ["apps/ambulance-store/src/app/*"],
       "@ambulance-monorepo/tables/*": [
         "apps/ambulance-master-tables/src/app/*"

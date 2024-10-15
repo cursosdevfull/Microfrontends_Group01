@@ -1,3 +1,4 @@
+import { AuthService } from '@ambulance-monorepo/services';
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import {
@@ -30,6 +31,7 @@ export class LoginComponent {
   fb: FormBuilder = new FormBuilder();
   fg!: FormGroup;
   private readonly router = inject(Router);
+  private readonly authService = inject(AuthService);
 
   constructor() {
     this.createForm();
@@ -42,7 +44,16 @@ export class LoginComponent {
     });
   }
 
-  login() {
-    this.router.navigate(['/menu']);
+  async login() {
+    const { email, password } = this.fg.value;
+    const response: Awaited<boolean> = await this.authService.login(
+      email,
+      password
+    );
+    if (response) {
+      this.router.navigate(['/menu']);
+    } else {
+      alert('Invalid credentials');
+    }
   }
 }
