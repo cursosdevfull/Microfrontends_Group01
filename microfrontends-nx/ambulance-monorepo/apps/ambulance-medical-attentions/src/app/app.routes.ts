@@ -15,6 +15,13 @@ export const appRoutes: Route[] = [
           ),
       },
       {
+        path: 'form',
+        loadComponent: () =>
+          import('./histories/form/form.component').then(
+            (m) => m.FormComponent
+          ),
+      },
+      {
         path: 'reports',
         loadComponent: () =>
           import('./reports/reports.component').then((m) => m.ReportsComponent),

@@ -1,1 +1,39 @@
-<p>form works!</p>
+<div class="container">
+  <div class="form">
+    <h2>Request</h2>
+    <lib-group
+      [group]="formGeneralRequest"
+      [options]="controlsGeneralRequest"
+    ></lib-group>
+  </div>
+  <div class="form">
+    <h2>Patient</h2>
+    <lib-group
+      [group]="formGeneralPatient"
+      [options]="controlsGeneralPatient"
+    ></lib-group>
+  </div>
+  <div class="form">
+    <h2>Location</h2>
+    <lib-group
+      [group]="formGeneralLocation"
+      [options]="controlsGeneralLocation"
+    ></lib-group>
+  </div>
+  <div class="form">
+    <h2>Main data</h2>
+    <lib-group
+      [group]="formMedicalAttentionMainData"
+      [options]="controlsMedicalAttentionMainData"
+    ></lib-group>
+  </div>
+  <div class="form">
+    <h2>Medical officers</h2>
+    <lib-group
+      [group]="formMedicalAttentionMedicalOfficers"
+      [options]="controlsMedicalAttentionMedicalOfficers"
+    ></lib-group>
+  </div>
+</div>
+<p>{{ controlValues | json }}</p>
+<p>Válido = {{ formGroup.valid }}</p>

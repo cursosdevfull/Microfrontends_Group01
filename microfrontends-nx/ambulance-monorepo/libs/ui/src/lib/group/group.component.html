@@ -1,0 +1,24 @@
+<div class="inputs">
+  @let fg=group(); @if(fg) { @for (option of options(); track $index) {
+  @if(option.type === 'SELECT') {
+  <lib-select
+    [group]="fg"
+    [controlName]="option.name"
+    [required]="option.required"
+    [errorMessage]="option.errorMessage"
+    [label]="option.label"
+    [options]="option.options"
+    [type]="option.type"
+  ></lib-select>
+  } @else {
+  <lib-form-field
+    [group]="fg"
+    [controlName]="option.name"
+    [required]="option.required"
+    [errorMessage]="option.errorMessage"
+    [label]="option.label"
+    [type]="option.type"
+  ></lib-form-field>
+
+  } } }
+</div>

@@ -30,6 +30,11 @@
   font-weight: 500;
 }
 
+.login__logo {
+  width: 100%;
+  max-width: 200px;
+}
+
 mat-form-field {
   width: 50%;
 }

@@ -36,6 +36,10 @@ export class AppComponent {
           path: 'reports',
           title: 'Reportes',
         },
+        {
+          path: 'form',
+          title: 'Formulario',
+        },
       ],
     };
   }

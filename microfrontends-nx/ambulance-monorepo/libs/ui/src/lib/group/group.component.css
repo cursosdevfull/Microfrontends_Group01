@@ -1,0 +1,6 @@
+.inputs {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 5px;
+}

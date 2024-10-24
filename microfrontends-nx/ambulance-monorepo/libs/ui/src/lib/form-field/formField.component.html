@@ -1,0 +1,14 @@
+@let fg = group(); @if(fg) {
+<mat-form-field [formGroup]="fg" subscriptSizing="dynamic">
+  <mat-label>{{ label() }}</mat-label>
+  <input
+    matInput
+    [formControlName]="controlName()"
+    [required]="required()"
+    [type]="type()"
+  />
+  @if(errorMessage()) {
+  <mat-error>{{ errorMessage() }}</mat-error>
+  }
+</mat-form-field>
+}

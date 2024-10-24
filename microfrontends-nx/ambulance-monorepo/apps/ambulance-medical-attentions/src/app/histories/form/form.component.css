@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form h2 {
+  font-size: 18px;
+}

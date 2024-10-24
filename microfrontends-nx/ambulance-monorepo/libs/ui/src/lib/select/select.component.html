@@ -1,0 +1,13 @@
+@let fg = group(); @if(fg) {
+<mat-form-field [formGroup]="fg">
+  <mat-label>{{ label() }}</mat-label>
+  <mat-select [formControlName]="controlName()">
+    @let opts=options(); @for (option of opts; track $index) {
+    <mat-option value="{{ option.value }}">{{ option.label }}</mat-option>
+    }
+  </mat-select>
+  @if(errorMessage()) {
+  <mat-error>{{ errorMessage() }}</mat-error>
+  }
+</mat-form-field>
+}
